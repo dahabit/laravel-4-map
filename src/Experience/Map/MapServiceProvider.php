@@ -26,7 +26,12 @@ class MapServiceProvider extends ServiceProvider
 	 */
 	public function register()
 	{
-		//
+		$this->app['map.facade'] = $this->app->share(function($app)
+		{
+			return new Commands\MapFacadeCommand($app);
+		});
+
+		$this->commands('map.facade');
 	}
 
 
