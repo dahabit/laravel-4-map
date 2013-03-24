@@ -4,9 +4,13 @@
     "authors": [
         {
             "name": "Stephen Lewis",
-            "email": "stephen@experiencehq.net"
+            "email": "stephen@experiencehq.net",
+            "homepage": "http://experiencehq.net",
+            "role": "Developer"
         }
     ],
+    "homepage": "http://github.com/experience/laravel-4-map",
+    "keywords": ["laravel"],
     "require": {
         "php": ">=5.3.0",
         "illuminate/support": "4.0.x",
